@@ -21,6 +21,8 @@
 		68CFDA3529C5FFB60003F67E /* Storable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3429C5FFB60003F67E /* Storable.swift */; };
 		68CFDA3729C5FFD80003F67E /* Deliverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3629C5FFD70003F67E /* Deliverable.swift */; };
 		68CFDA3929C5FFF20003F67E /* Salable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3829C5FFF20003F67E /* Salable.swift */; };
+		68CFDA3E29C6FDBC0003F67E /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3D29C6FDBC0003F67E /* Drink.swift */; };
+		68CFDA4029C6FF9D0003F67E /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3F29C6FF9D0003F67E /* VendingMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		68CFDA3429C5FFB60003F67E /* Storable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storable.swift; sourceTree = "<group>"; };
 		68CFDA3629C5FFD70003F67E /* Deliverable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deliverable.swift; sourceTree = "<group>"; };
 		68CFDA3829C5FFF20003F67E /* Salable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salable.swift; sourceTree = "<group>"; };
+		68CFDA3D29C6FDBC0003F67E /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		68CFDA3F29C6FF9D0003F67E /* VendingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 				68CFD9FB29C5FF050003F67E /* AppDelegate.swift */,
 				68CFD9FD29C5FF050003F67E /* SceneDelegate.swift */,
 				68CFD9FF29C5FF050003F67E /* ViewController.swift */,
+				68CFDA3C29C6FDAA0003F67E /* OCP */,
 				68CFDA2B29C5FF6B0003F67E /* SRP */,
 				68CFDA0129C5FF050003F67E /* Main.storyboard */,
 				68CFDA0429C5FF060003F67E /* Assets.xcassets */,
@@ -124,6 +129,15 @@
 				68CFDA3229C5FF970003F67E /* DeliveryManager.swift */,
 			);
 			path = SRP;
+			sourceTree = "<group>";
+		};
+		68CFDA3C29C6FDAA0003F67E /* OCP */ = {
+			isa = PBXGroup;
+			children = (
+				68CFDA3D29C6FDBC0003F67E /* Drink.swift */,
+				68CFDA3F29C6FF9D0003F67E /* VendingMachine.swift */,
+			);
+			path = OCP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 				68CFDA3929C5FFF20003F67E /* Salable.swift in Sources */,
 				68CFDA0029C5FF050003F67E /* ViewController.swift in Sources */,
 				68CFDA3329C5FF970003F67E /* DeliveryManager.swift in Sources */,
+				68CFDA3E29C6FDBC0003F67E /* Drink.swift in Sources */,
 				68CFD9FC29C5FF050003F67E /* AppDelegate.swift in Sources */,
 				68CFDA2F29C5FF8A0003F67E /* StockManager.swift in Sources */,
 				68CFDA3129C5FF900003F67E /* SellManager.swift in Sources */,
@@ -237,6 +252,7 @@
 				68CFD9FE29C5FF050003F67E /* SceneDelegate.swift in Sources */,
 				68CFDA2D29C5FF7A0003F67E /* Market.swift in Sources */,
 				68CFDA3729C5FFD80003F67E /* Deliverable.swift in Sources */,
+				68CFDA4029C6FF9D0003F67E /* VendingMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
