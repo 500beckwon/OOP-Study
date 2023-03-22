@@ -23,6 +23,7 @@
 		68CFDA3929C5FFF20003F67E /* Salable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3829C5FFF20003F67E /* Salable.swift */; };
 		68CFDA3E29C6FDBC0003F67E /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3D29C6FDBC0003F67E /* Drink.swift */; };
 		68CFDA4029C6FF9D0003F67E /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFDA3F29C6FF9D0003F67E /* VendingMachine.swift */; };
+		68DD174E29CB2FE20013FB27 /* SRPExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD174D29CB2FE20013FB27 /* SRPExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		68CFDA3829C5FFF20003F67E /* Salable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salable.swift; sourceTree = "<group>"; };
 		68CFDA3D29C6FDBC0003F67E /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		68CFDA3F29C6FF9D0003F67E /* VendingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
+		68DD174D29CB2FE20013FB27 /* SRPExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				68CFDA2E29C5FF8A0003F67E /* StockManager.swift */,
 				68CFDA3029C5FF900003F67E /* SellManager.swift */,
 				68CFDA3229C5FF970003F67E /* DeliveryManager.swift */,
+				68DD174D29CB2FE20013FB27 /* SRPExample.swift */,
 			);
 			path = SRP;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				68CFDA3929C5FFF20003F67E /* Salable.swift in Sources */,
 				68CFDA0029C5FF050003F67E /* ViewController.swift in Sources */,
 				68CFDA3329C5FF970003F67E /* DeliveryManager.swift in Sources */,
+				68DD174E29CB2FE20013FB27 /* SRPExample.swift in Sources */,
 				68CFDA3E29C6FDBC0003F67E /* Drink.swift in Sources */,
 				68CFD9FC29C5FF050003F67E /* AppDelegate.swift in Sources */,
 				68CFDA2F29C5FF8A0003F67E /* StockManager.swift in Sources */,
