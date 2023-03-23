@@ -60,5 +60,54 @@ final class DoorCloser {
 }
 
 
+protocol PaymentProtocol {
+    func processPayment()
+}
 
+enum PaymentType {
+    case creditCard
+    case paypal
+    case applePay
+    
+    func getPayment() -> PaymentProtocol {
+        switch self {
+        case .creditCard:
+            return CreditCardPayment()
+        case .paypal:
+            return PaypalPayment()
+        case .applePay:
+            return ApplePayPayment()
+        }
+    }
+}
 
+class CreditCardPayment: PaymentProtocol {
+    func processPayment() {
+        // credit card payment process
+    }
+}
+
+class PaypalPayment: PaymentProtocol {
+    func processPayment() {
+        // paypal payment process
+    }
+}
+
+class ApplePayPayment: PaymentProtocol {
+    func processPayment() {
+        // apple pay payment process
+    }
+}
+
+class PaymentHandler {
+    let paymentType: PaymentType
+    
+    init(paymentType: PaymentType) {
+        self.paymentType = paymentType
+    }
+    
+    func processPayment() {
+        let payment = paymentType.getPayment()
+        payment.processPayment()
+    }
+}
